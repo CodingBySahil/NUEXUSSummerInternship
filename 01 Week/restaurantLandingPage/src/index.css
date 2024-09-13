@@ -1,6 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+.font-script {
+  font-family: 'Great Vibes', cursive;
+}
+
+.font-body {
+  font-family: 'Poppins', sans-serif;
+}
+
 
 .bg-cover {
     background-size: cover;

@@ -6,6 +6,7 @@ import LandingPage from "./Pages/LandingPage";
 import Login from "./Pages/Login";
 import SignUp from "./Pages/SignUp";
 import NotFound from "./Pages/NotFound";
+import CurvedSection from "./Components/CurvedSection";
 
 const App = () => {
   return (
