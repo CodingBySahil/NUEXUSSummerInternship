@@ -6,7 +6,7 @@ const Contact = () => {
     <>
       <section
         className="relative z-10 pt-20  bg-cover bg-center bg-no-repeat py-10 lg:py-20 dark:bg-dark min-h-[100vh]"
-        style={{ backgroundImage: `url('/src/assets/images/loginImg.jpg')` }}
+        style={{ backgroundImage: `url('/assets/images/loginImg.jpg')` }}
       >
         <div className="container mx-auto px-4 min-h-screen flex justify-center items-center">
           {/* Wrap the content in a flex container with equal width and height */}

@@ -9,12 +9,12 @@ const HeroSection = () => {
         <div className="bg-black/35 w-full h-full absolute z-10"></div>
         {/* Navbar */}
         <img
-          src="/src/assets/images/hero-left-dish.webp"
+          src="/assets/images/hero-left-dish.webp"
           alt="heroSectionImg"
           className="absolute left-0 inline w-[60vw] h-full object-cover object-center opacity-55"
         />
         <img
-          src="/src/assets/images/hero-right.png"
+          src="/assets/images/hero-right.png"
           alt="heroSectionImg"
           className="absolute right-0 inline w-[80vw] h-full object-cover object-center"
         />

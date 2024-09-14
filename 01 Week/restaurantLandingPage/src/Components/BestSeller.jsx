@@ -3,42 +3,42 @@ import React from "react";
 const BestSeller = () => {
   const bestSellerProducts = [
     {
-      src: "/src/assets/images/bestSeller1.jpeg",
+      src: "/assets/images/bestSeller1.jpeg",
       title: "Burger of the day",
       price: "$12.99"
     },
     {
-      src: "/src/assets/images/bestSeller2.jpeg",
+      src: "/assets/images/bestSeller2.jpeg",
       title: "Pizza of the day",
       price: "$15.99"
     },
     {
-      src: "/src/assets/images/bestSeller3.jpeg",
+      src: "/assets/images/bestSeller3.jpeg",
       title: "Sandwich of the day",
       price: "$10.99"
     },
     {
-      src: "/src/assets/images/bestSeller2.jpeg",
+      src: "/assets/images/bestSeller2.jpeg",
       title: "Fried Rice of the day",
       price: "$9.99"
     },
     {
-      src: "/src/assets/images/bestSeller1.jpeg",
+      src: "/assets/images/bestSeller1.jpeg",
       title: "Chicken of the day",
       price: "$13.99"
     },
     {
-      src: "/src/assets/images/bestSeller3.jpeg",
+      src: "/assets/images/bestSeller3.jpeg",
       title: "Burger of the day",
       price: "$12.99"
     },
     {
-      src: "/src/assets/images/bestSeller2.jpeg",
+      src: "/assets/images/bestSeller2.jpeg",
       title: "Pizza of the day",
       price: "$15.99"
     },
     {
-      src: "/src/assets/images/bestSeller1.jpeg",
+      src: "/assets/images/bestSeller1.jpeg",
       title: "Sandwich of the day",
       price: "$10.99"
     },

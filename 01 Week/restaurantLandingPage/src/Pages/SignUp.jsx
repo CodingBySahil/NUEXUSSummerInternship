@@ -13,7 +13,7 @@ const SignUp = ({ className = "" }) => {
       {/* Background Image Wrapper */}
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('/src/assets/images/signUpImg.jpg')" }}
+        style={{ backgroundImage: "url('/assets/images/signUpImg.jpg')" }}
       >
         {/* Overlay to ensure text visibility */}
         <div className="absolute inset-0 bg-black opacity-50"></div>

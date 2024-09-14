@@ -16,7 +16,7 @@ const Header = (className) => {
         {/* Logo */}
         <Link to="/" className="flex items-center">
           <img
-            src="src/assets/Logo/bgrlogo.png"
+            src="/assets/Logo/bgrlogo.png"
             className="h-8 sm:h-10 mr-3 hover:scale-150"
             alt="Hard Rock Logo"
           />
