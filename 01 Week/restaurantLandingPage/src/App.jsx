@@ -1,6 +1,5 @@
 import React from "react";
 import Wrapper from "./Components/Wrapper";
-import Header from "./Components/Header";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import LandingPage from "./Pages/LandingPage";
 import Login from "./Pages/Login";
