@@ -10,7 +10,7 @@ const Contact = () => {
       >
         <div className="container mx-auto px-4 min-h-screen flex justify-center items-center">
           {/* Wrap the content in a flex container with equal width and height */}
-          <div className="flex flex-col lg:flex-row w-full lg:w-10/12 xl:w-8/12 min-h-[500px] max-h-[650px] shadow-lg ">
+          <div className="flex flex-col lg:flex-row w-full lg:w-10/12 xl:w-8/12 min-h-[500px]  shadow-lg ">
             {/* Left Side (Contact Information) */}
             <div className="w-full lg:w-1/2 mr-8 mb-8 sm:mb-0 flex flex-col justify-center items-center bg-white/70 p-8 rounded-l-lg backdrop-blur-md">
               <div className="flex-1 flex flex-col justify-center w-full max-w-[500px]">
@@ -72,7 +72,7 @@ const Contact = () => {
             </div>
 
             {/* Right Side (Contact Form) */}
-            <div className="w-full lg:w-1/2 flex flex-col justify-center items-center bg-white p-8 rounded-r-lg dark:bg-dark-2 flex-1 shadow-lg">
+            <div className="w-full lg:w-1/2 flex flex-col justify-center mt-4 sm:mt-6 md:mt-8 lg:m-0 items-center bg-white p-8 rounded-r-lg dark:bg-dark-2 flex-1 shadow-lg">
               <form className="w-full max-w-[500px]">
                 <input
                   type="text"
