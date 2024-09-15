@@ -16,24 +16,24 @@ const SignUp = ({ className = "" }) => {
         style={{ backgroundImage: "url('/assets/images/signUpImg.jpg')" }}
       >
         {/* Overlay to ensure text visibility */}
-        <div className="absolute inset-0 bg-black opacity-50"></div>
+        <div className="absolute inset-0 bg-black/20"></div>
       </div>
 
-      <div className="relative flex-col flex self-center lg:px-14 sm:max-w-xl xl:max-w-md bg-black/40 rounded-2xl p-4 mr-4">
+      <div className="relative flex-col flex self-center lg:px-14 sm:max-w-xl xl:max-w-md bg-black/50 rounded-2xl p-4 -mr-4 sm:mr-4">
         <div className="self-start hidden lg:flex flex-col text-gray-100">
           <h1 className="my-3 font-semibold text-4xl">
             Join Our Restaurant Family
           </h1>
-          <p className="pr-3 text-xl opacity-75">
+          <p className="pr-3 text-xl ">
             Become a part of the Hard Rock family and enjoy a unique dining
             experience where each visit feels special. Sign up today to explore
             our menu, reserve tables, and receive exclusive updates and offers.
           </p>
-          <p className="pr-3 text-xl opacity-75 mt-4">
+          <p className="pr-3 text-xl  mt-4">
             Whether it's a casual meal or a special occasion, we are here to
             make your dining experience memorable.
           </p>
-          <p className="pr-3 text-xl opacity-75 mt-4">
+          <p className="pr-3 text-xl  mt-4">
             Register now and get ready to embark on a culinary journey filled
             with exquisite flavors and heartfelt hospitality!
           </p>
@@ -41,10 +41,10 @@ const SignUp = ({ className = "" }) => {
       </div>
 
       <div className="relative z-10 flex justify-center self-center">
-        <div className="p-12 bg-white mx-auto rounded-3xl w-96">
+        <div className="p-12 bg-black/50 mx-auto rounded-3xl w-96">
           <div className="mb-7">
-            <h3 className="font-semibold text-2xl text-gray-800">Sign Up</h3>
-            <p className="text-gray-400">
+            <h3 className="font-semibold text-2xl text-white">Sign Up</h3>
+            <p className="text-gray-200">
               Already have an account?{" "}
               <Link
                 to="/login"
@@ -149,7 +149,7 @@ const SignUp = ({ className = "" }) => {
               </button>
             </div>
             <div className="flex items-center justify-between">
-              <label className="inline-flex items-center text-sm text-gray-600">
+              <label className="inline-flex items-center text-sm text-gray-200">
                 <input type="checkbox" className="form-checkbox" />
                 <span className="ml-2">Remember Me</span>
               </label>
