@@ -10,25 +10,22 @@ const Quizz = () => {
   const [score, setScore] = useState(0);
   const [difficulty, setDifficulty] = useState('Easy');
   const [quizStarted, setQuizStarted] = useState(false);
-  const [timer, setTimer] = useState(30); // 30 seconds for each question
+  const [timer, setTimer] = useState(30);
   const [username, setUsername] = useState('');
   const [leaderboard, setLeaderboard] = useState([]);
   const [isDarkMode, setIsDarkMode] = useState(false);
 
-  // Load questions from JSON based on the selected difficulty
   useEffect(() => {
     if (!quizStarted) {
       setQuestions(questionsData[difficulty]);
     }
   }, [difficulty, quizStarted]);
 
-  // Load saved leaderboard from localStorage
   useEffect(() => {
     const storedLeaderboard = JSON.parse(localStorage.getItem('leaderboard')) || [];
     setLeaderboard(storedLeaderboard);
   }, []);
 
-  // Set or remove the 'dark' class on the root HTML element
   useEffect(() => {
     const htmlElement = document.documentElement;
     if (isDarkMode) {
@@ -38,7 +35,6 @@ const Quizz = () => {
     }
   }, [isDarkMode]);
 
-  // Start timer when quiz starts
   useEffect(() => {
     if (quizStarted && !showScore) {
       const timerRef = setInterval(() => {
@@ -48,17 +44,15 @@ const Quizz = () => {
     }
   }, [quizStarted, showScore]);
 
-  // Move to the next question when timer runs out
   useEffect(() => {
     if (timer === 0) {
-      handleAnswerOptionClick(false); // Treat timeout as incorrect answer
+      handleAnswerOptionClick(false);
     }
   }, [timer]);
 
-  // Handle answer selection
   const handleAnswerOptionClick = (isCorrect) => {
     if (isCorrect) {
-      setScore(score + 1);
+      setScore((prevScore) => prevScore + 1);
       new Audio(correctSoundFile).play();
     } else {
       new Audio(incorrectSoundFile).play();
@@ -67,13 +61,12 @@ const Quizz = () => {
     const nextQuestion = currentQuestion + 1;
     if (nextQuestion < questions.length) {
       setCurrentQuestion(nextQuestion);
-      setTimer(30); // Reset timer for the next question
+      setTimer(30);
     } else {
       setShowScore(true);
     }
   };
 
-  // Start quiz and get username
   const startQuiz = () => {
     const storedUsername = localStorage.getItem('username');
     if (storedUsername) {
@@ -86,7 +79,6 @@ const Quizz = () => {
     setQuizStarted(true);
   };
 
-  // Reset quiz state
   const resetQuiz = () => {
     setQuizStarted(false);
     setCurrentQuestion(0);
@@ -95,25 +87,26 @@ const Quizz = () => {
     setTimer(30);
   };
 
-  // Submit score to leaderboard
   const handleSubmitScore = () => {
     const newEntry = { name: username, score, difficulty };
-    const updatedLeaderboard = [...leaderboard, newEntry].sort((a, b) => b.score - a.score);
+    const updatedLeaderboard = [...leaderboard, newEntry]
+      .filter(entry => entry.difficulty === difficulty)
+      .sort((a, b) => b.score - a.score)
+      .slice(0, 10); // Keep only top 10 scores
+
     setLeaderboard(updatedLeaderboard);
     localStorage.setItem('leaderboard', JSON.stringify(updatedLeaderboard));
   };
 
-  // Toggle between dark and light mode
   const toggleDarkMode = () => {
     setIsDarkMode(!isDarkMode);
   };
 
-  // Filter leaderboard based on the difficulty level
   const filteredLeaderboard = leaderboard.filter((entry) => entry.difficulty === difficulty);
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100">
-      <div className="w-full max-w-3xl p-8 bg-white dark:bg-gray-800 rounded-xl shadow-lg space-y-8">
+    <div className="min-h-screen flex items-center justify-center bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition duration-300">
+      <div className="w-full max-w-3xl p-8 bg-white dark:bg-gray-800 rounded-xl shadow-lg space-y-8 transition duration-300">
         <div className="flex justify-between items-center">
           <button
             onClick={toggleDarkMode}
@@ -125,7 +118,7 @@ const Quizz = () => {
             value={difficulty}
             onChange={(e) => setDifficulty(e.target.value)}
             disabled={quizStarted}
-            className="p-2 border rounded focus:outline-none"
+            className="p-2 border rounded focus:outline-none dark:bg-gray-700 dark:border-gray-600"
           >
             <option value="Easy">Easy</option>
             <option value="Medium">Medium</option>
@@ -167,7 +160,7 @@ const Quizz = () => {
             <div className="relative w-full h-4 bg-gray-200 dark:bg-gray-700 rounded">
               <div
                 className="absolute h-full bg-blue-500 rounded transition-all duration-300"
-                style={{ width: `${((currentQuestion ) / questions.length) * 100}%` }}
+                style={{ width: `${((currentQuestion + 1) / questions.length) * 100}%` }}
               ></div>
             </div>
 
@@ -196,12 +189,7 @@ const Quizz = () => {
           </button>
         )}
 
-        {/* Link to full leaderboard */}
-        <div className="text-right">
-          <a href="/leaderboard" className="text-blue-500 hover:underline">
-            View Full Leaderboard
-          </a>
-        </div>
+        
       </div>
     </div>
   );
