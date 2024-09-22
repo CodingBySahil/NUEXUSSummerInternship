@@ -1,0 +1,459 @@
+{
+    "Easy": [
+    {
+      "questionText": "What is the capital of Pakistan?",
+      "answerOptions": [
+        { "answerText": "Karachi", "isCorrect": false },
+        { "answerText": "Lahore", "isCorrect": false },
+        { "answerText": "Islamabad", "isCorrect": true },
+        { "answerText": "Peshawar", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Which river is the longest in Pakistan?",
+      "answerOptions": [
+        { "answerText": "Indus", "isCorrect": true },
+        { "answerText": "Ravi", "isCorrect": false },
+        { "answerText": "Chenab", "isCorrect": false },
+        { "answerText": "Kabul", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Which city is known as the 'City of Lights' in Pakistan?",
+      "answerOptions": [
+        { "answerText": "Karachi", "isCorrect": true },
+        { "answerText": "Lahore", "isCorrect": false },
+        { "answerText": "Quetta", "isCorrect": false },
+        { "answerText": "Islamabad", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Who is the national poet of Pakistan?",
+      "answerOptions": [
+        { "answerText": "Faiz Ahmed Faiz", "isCorrect": false },
+        { "answerText": "Mirza Ghalib", "isCorrect": false },
+        { "answerText": "Allama Iqbal", "isCorrect": true },
+        { "answerText": "Parveen Shakir", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Which year did Pakistan become independent?",
+      "answerOptions": [
+        { "answerText": "1947", "isCorrect": true },
+        { "answerText": "1956", "isCorrect": false },
+        { "answerText": "1930", "isCorrect": false },
+        { "answerText": "1965", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "What is the national language of Pakistan?",
+      "answerOptions": [
+        { "answerText": "Urdu", "isCorrect": true },
+        { "answerText": "Punjabi", "isCorrect": false },
+        { "answerText": "Sindhi", "isCorrect": false },
+        { "answerText": "English", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Who was the first Prime Minister of Pakistan?",
+      "answerOptions": [
+        { "answerText": "Liaquat Ali Khan", "isCorrect": true },
+        { "answerText": "Muhammad Ali Jinnah", "isCorrect": false },
+        { "answerText": "Zulfiqar Ali Bhutto", "isCorrect": false },
+        { "answerText": "Ayub Khan", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "What is the currency of Pakistan?",
+      "answerOptions": [
+        { "answerText": "Dollar", "isCorrect": false },
+        { "answerText": "Rupee", "isCorrect": true },
+        { "answerText": "Taka", "isCorrect": false },
+        { "answerText": "Euro", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Which province is the largest by area in Pakistan?",
+      "answerOptions": [
+        { "answerText": "Punjab", "isCorrect": false },
+        { "answerText": "Sindh", "isCorrect": false },
+        { "answerText": "Balochistan", "isCorrect": true },
+        { "answerText": "Khyber Pakhtunkhwa", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "What is the national game of Pakistan?",
+      "answerOptions": [
+        { "answerText": "Cricket", "isCorrect": false },
+        { "answerText": "Football", "isCorrect": false },
+        { "answerText": "Hockey", "isCorrect": true },
+        { "answerText": "Badminton", "isCorrect": false }
+      ]
+    }
+  ],
+    "Medium": [
+    {
+      "questionText": "Who was the first Prime Minister of Pakistan?",
+      "answerOptions": [
+        { "answerText": "Liaquat Ali Khan", "isCorrect": true },
+        { "answerText": "Muhammad Ali Jinnah", "isCorrect": false },
+        { "answerText": "Zulfikar Ali Bhutto", "isCorrect": false },
+        { "answerText": "Ayub Khan", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Which city is known as the ‘City of Gardens’?",
+      "answerOptions": [
+        { "answerText": "Lahore", "isCorrect": true },
+        { "answerText": "Karachi", "isCorrect": false },
+        { "answerText": "Islamabad", "isCorrect": false },
+        { "answerText": "Multan", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Which is the longest river in Pakistan?",
+      "answerOptions": [
+        { "answerText": "Indus River", "isCorrect": true },
+        { "answerText": "Ravi River", "isCorrect": false },
+        { "answerText": "Jhelum River", "isCorrect": false },
+        { "answerText": "Sutlej River", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "What is the national sport of Pakistan?",
+      "answerOptions": [
+        { "answerText": "Hockey", "isCorrect": true },
+        { "answerText": "Cricket", "isCorrect": false },
+        { "answerText": "Football", "isCorrect": false },
+        { "answerText": "Squash", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Who was the founder of Pakistan’s nuclear program?",
+      "answerOptions": [
+        { "answerText": "Dr. Abdul Qadeer Khan", "isCorrect": true },
+        { "answerText": "Pervez Musharraf", "isCorrect": false },
+        { "answerText": "Zulfikar Ali Bhutto", "isCorrect": false },
+        { "answerText": "Muhammad Ali Jinnah", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Which mountain range is located in Northern Pakistan?",
+      "answerOptions": [
+        { "answerText": "Karakoram", "isCorrect": true },
+        { "answerText": "Himalayas", "isCorrect": false },
+        { "answerText": "Rockies", "isCorrect": false },
+        { "answerText": "Alps", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Which desert is located in the province of Sindh?",
+      "answerOptions": [
+        { "answerText": "Thar Desert", "isCorrect": true },
+        { "answerText": "Cholistan Desert", "isCorrect": false },
+        { "answerText": "Gobi Desert", "isCorrect": false },
+        { "answerText": "Sahara Desert", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Which Pakistani city is famous for its Faisal Mosque?",
+      "answerOptions": [
+        { "answerText": "Islamabad", "isCorrect": true },
+        { "answerText": "Lahore", "isCorrect": false },
+        { "answerText": "Karachi", "isCorrect": false },
+        { "answerText": "Peshawar", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "What is the national flower of Pakistan?",
+      "answerOptions": [
+        { "answerText": "Jasmine", "isCorrect": true },
+        { "answerText": "Rose", "isCorrect": false },
+        { "answerText": "Sunflower", "isCorrect": false },
+        { "answerText": "Tulip", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Which sea borders Pakistan to the south?",
+      "answerOptions": [
+        { "answerText": "Arabian Sea", "isCorrect": true },
+        { "answerText": "Caspian Sea", "isCorrect": false },
+        { "answerText": "Black Sea", "isCorrect": false },
+        { "answerText": "Mediterranean Sea", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "In which year did Pakistan win its first Cricket World Cup?",
+      "answerOptions": [
+        { "answerText": "1992", "isCorrect": true },
+        { "answerText": "1987", "isCorrect": false },
+        { "answerText": "1996", "isCorrect": false },
+        { "answerText": "2003", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Which language is the official language of Pakistan?",
+      "answerOptions": [
+        { "answerText": "Urdu", "isCorrect": true },
+        { "answerText": "Punjabi", "isCorrect": false },
+        { "answerText": "Pashto", "isCorrect": false },
+        { "answerText": "Sindhi", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Who was Pakistan's first female Prime Minister?",
+      "answerOptions": [
+        { "answerText": "Benazir Bhutto", "isCorrect": true },
+        { "answerText": "Fatima Jinnah", "isCorrect": false },
+        { "answerText": "Begum Rana Liaquat Ali Khan", "isCorrect": false },
+        { "answerText": "Shireen Mazari", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "What is the capital city of Balochistan?",
+      "answerOptions": [
+        { "answerText": "Quetta", "isCorrect": true },
+        { "answerText": "Gwadar", "isCorrect": false },
+        { "answerText": "Zhob", "isCorrect": false },
+        { "answerText": "Sibi", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "In which year was Pakistan’s first constitution adopted?",
+      "answerOptions": [
+        { "answerText": "1956", "isCorrect": true },
+        { "answerText": "1947", "isCorrect": false },
+        { "answerText": "1962", "isCorrect": false },
+        { "answerText": "1973", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Which city is known as the economic hub of Pakistan?",
+      "answerOptions": [
+        { "answerText": "Karachi", "isCorrect": true },
+        { "answerText": "Lahore", "isCorrect": false },
+        { "answerText": "Islamabad", "isCorrect": false },
+        { "answerText": "Faisalabad", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Which is the largest province of Pakistan by area?",
+      "answerOptions": [
+        { "answerText": "Balochistan", "isCorrect": true },
+        { "answerText": "Punjab", "isCorrect": false },
+        { "answerText": "Sindh", "isCorrect": false },
+        { "answerText": "Khyber Pakhtunkhwa", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Who wrote Pakistan’s national anthem?",
+      "answerOptions": [
+        { "answerText": "Hafeez Jalandhari", "isCorrect": true },
+        { "answerText": "Allama Iqbal", "isCorrect": false },
+        { "answerText": "Faiz Ahmed Faiz", "isCorrect": false },
+        { "answerText": "Ahmed Faraz", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "In which year did Pakistan become a nuclear power?",
+      "answerOptions": [
+        { "answerText": "1998", "isCorrect": true },
+        { "answerText": "1990", "isCorrect": false },
+        { "answerText": "2000", "isCorrect": false },
+        { "answerText": "1985", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Which famous mountain is located in Pakistan?",
+      "answerOptions": [
+        { "answerText": "K2", "isCorrect": true },
+        { "answerText": "Everest", "isCorrect": false },
+        { "answerText": "Nanga Parbat", "isCorrect": false },
+        { "answerText": "Makalu", "isCorrect": false }
+      ]
+    }
+  ],
+    "Hard": [
+    {
+      "questionText": "Who designed Pakistan’s national flag?",
+      "answerOptions": [
+        { "answerText": "Amiruddin Kidwai", "isCorrect": true },
+        { "answerText": "Liaquat Ali Khan", "isCorrect": false },
+        { "answerText": "Allama Iqbal", "isCorrect": false },
+        { "answerText": "Hafeez Jalandhari", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Which Pakistani physicist won the Nobel Prize in Physics in 1979?",
+      "answerOptions": [
+        { "answerText": "Dr. Abdus Salam", "isCorrect": true },
+        { "answerText": "Dr. Abdul Qadeer Khan", "isCorrect": false },
+        { "answerText": "Dr. Atta-ur-Rahman", "isCorrect": false },
+        { "answerText": "Dr. Samar Mubarakmand", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Which famous poet is known as the national poet of Pakistan?",
+      "answerOptions": [
+        { "answerText": "Allama Iqbal", "isCorrect": true },
+        { "answerText": "Faiz Ahmed Faiz", "isCorrect": false },
+        { "answerText": "Ahmed Faraz", "isCorrect": false },
+        { "answerText": "Mirza Ghalib", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "In which year did Pakistan become a republic?",
+      "answerOptions": [
+        { "answerText": "1956", "isCorrect": true },
+        { "answerText": "1947", "isCorrect": false },
+        { "answerText": "1971", "isCorrect": false },
+        { "answerText": "1965", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Which is the largest mosque in Pakistan?",
+      "answerOptions": [
+        { "answerText": "Faisal Mosque", "isCorrect": true },
+        { "answerText": "Badshahi Mosque", "isCorrect": false },
+        { "answerText": "Shah Jahan Mosque", "isCorrect": false },
+        { "answerText": "Grand Jamia Mosque", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "What is the official national fruit of Pakistan in summer?",
+      "answerOptions": [
+        { "answerText": "Mango", "isCorrect": true },
+        { "answerText": "Banana", "isCorrect": false },
+        { "answerText": "Apple", "isCorrect": false },
+        { "answerText": "Guava", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Which is the smallest province of Pakistan by area?",
+      "answerOptions": [
+        { "answerText": "Khyber Pakhtunkhwa", "isCorrect": true },
+        { "answerText": "Punjab", "isCorrect": false },
+        { "answerText": "Sindh", "isCorrect": false },
+        { "answerText": "Balochistan", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Who was the first Governor-General of Pakistan?",
+      "answerOptions": [
+        { "answerText": "Muhammad Ali Jinnah", "isCorrect": true },
+        { "answerText": "Liaquat Ali Khan", "isCorrect": false },
+        { "answerText": "Ayub Khan", "isCorrect": false },
+        { "answerText": "Zulfikar Ali Bhutto", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Which Pakistani city is known as the ‘City of Lights’?",
+      "answerOptions": [
+        { "answerText": "Karachi", "isCorrect": true },
+        { "answerText": "Lahore", "isCorrect": false },
+        { "answerText": "Islamabad", "isCorrect": false },
+        { "answerText": "Multan", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "What is the name of Pakistan’s first female fighter pilot to die in the line of duty?",
+      "answerOptions": [
+        { "answerText": "Marium Mukhtiar", "isCorrect": true },
+        { "answerText": "Ayesha Farooq", "isCorrect": false },
+        { "answerText": "Shukriya Khanum", "isCorrect": false },
+        { "answerText": "Fatima Jinnah", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Who was the first Chief Justice of Pakistan?",
+      "answerOptions": [
+        { "answerText": "Abdul Rashid", "isCorrect": true },
+        { "answerText": "Muhammad Munir", "isCorrect": false },
+        { "answerText": "Anwar Zaheer Jamali", "isCorrect": false },
+        { "answerText": "Iftikhar Chaudhry", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "In which year did the Kargil War between Pakistan and India take place?",
+      "answerOptions": [
+        { "answerText": "1999", "isCorrect": true },
+        { "answerText": "1995", "isCorrect": false },
+        { "answerText": "1990", "isCorrect": false },
+        { "answerText": "2001", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Which Pakistani city is famous for its leather products?",
+      "answerOptions": [
+        { "answerText": "Sialkot", "isCorrect": true },
+        { "answerText": "Faisalabad", "isCorrect": false },
+        { "answerText": "Lahore", "isCorrect": false },
+        { "answerText": "Karachi", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Who was Pakistan’s first female foreign minister?",
+      "answerOptions": [
+        { "answerText": "Hina Rabbani Khar", "isCorrect": true },
+        { "answerText": "Benazir Bhutto", "isCorrect": false },
+        { "answerText": "Fatima Jinnah", "isCorrect": false },
+        { "answerText": "Sherry Rehman", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Who wrote Pakistan’s first national anthem?",
+      "answerOptions": [
+        { "answerText": "Jagannath Azad", "isCorrect": true },
+        { "answerText": "Hafeez Jalandhari", "isCorrect": false },
+        { "answerText": "Allama Iqbal", "isCorrect": false },
+        { "answerText": "Ahmed Faraz", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Which year did the 18th amendment pass in Pakistan's constitution?",
+      "answerOptions": [
+        { "answerText": "2010", "isCorrect": true },
+        { "answerText": "2008", "isCorrect": false },
+        { "answerText": "2015", "isCorrect": false },
+        { "answerText": "2000", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "What was the old name of Peshawar?",
+      "answerOptions": [
+        { "answerText": "Purusapura", "isCorrect": true },
+        { "answerText": "Taxila", "isCorrect": false },
+        { "answerText": "Nandana", "isCorrect": false },
+        { "answerText": "Takshashila", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Which Pakistani leader was awarded the Nobel Peace Prize in 2014?",
+      "answerOptions": [
+        { "answerText": "Malala Yousafzai", "isCorrect": true },
+        { "answerText": "Abdus Salam", "isCorrect": false },
+        { "answerText": "Imran Khan", "isCorrect": false },
+        { "answerText": "Benazir Bhutto", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Which Pakistani cricketer was known as the 'Rawalpindi Express'?",
+      "answerOptions": [
+        { "answerText": "Shoaib Akhtar", "isCorrect": true },
+        { "answerText": "Wasim Akram", "isCorrect": false },
+        { "answerText": "Waqar Younis", "isCorrect": false },
+        { "answerText": "Shahid Afridi", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "What is the largest natural lake in Pakistan?",
+      "answerOptions": [
+        { "answerText": "Manchar Lake", "isCorrect": true },
+        { "answerText": "Saiful Muluk", "isCorrect": false },
+        { "answerText": "Attabad Lake", "isCorrect": false },
+        { "answerText": "Keenjhar Lake", "isCorrect": false }
+      ]
+    }
+    ]
+  }
+  
