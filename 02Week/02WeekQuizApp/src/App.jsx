@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import LoginSignup from './Components/LoginSignup';
-import Quizz from './Components/Quizz';
+import Quiz from './Components/Quizz';
 
 const App = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -12,7 +12,7 @@ const App = () => {
   return (
     <>
       {isLoggedIn ? (
-        <Quizz />
+        <Quiz />
       ) : (
         <LoginSignup onLoginSuccess={handleLoginSuccess} />
       )}

@@ -3,7 +3,7 @@ import correctSoundFile from '../audio/correct.mp3';
 import incorrectSoundFile from '../audio/incorrect.mp3';
 import questionsData from '../data/questions.json';
 
-const Quizz = () => {
+const Quiz = () => {
   const [questions, setQuestions] = useState([]);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [showScore, setShowScore] = useState(false);
@@ -195,4 +195,4 @@ const Quizz = () => {
   );
 };
 
-export default Quizz;
+export default Quiz;
