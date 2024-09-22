@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import LoginSignup from './Components/LoginSignUp';
+import LoginSignup from './Components/LoginSignup';
 import Quizz from './Components/Quizz';
 
 const App = () => {
